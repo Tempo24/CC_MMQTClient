@@ -1,0 +1,16 @@
+//
+//  MqttSmartHome.pch
+//  QuhwaMqttSmartHome
+//
+//  Created by Tisoon on 2019/12/16.
+//  Copyright © 2019 Tisoon. All rights reserved.
+//
+
+#ifndef MqttSmartHome_pch
+#define MqttSmartHome_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "MBProgressHUD.h"
+
+#endif /* MqttSmartHome_pch */

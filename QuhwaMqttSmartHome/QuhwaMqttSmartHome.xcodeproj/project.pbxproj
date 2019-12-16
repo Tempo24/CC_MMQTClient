@@ -1,0 +1,730 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C47BD55F23A71340001888B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C47BD55E23A71340001888B1 /* AppDelegate.m */; };
+		C47BD56223A71340001888B1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C47BD56123A71340001888B1 /* ViewController.m */; };
+		C47BD56523A71340001888B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C47BD56323A71340001888B1 /* Main.storyboard */; };
+		C47BD56723A71342001888B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C47BD56623A71342001888B1 /* Assets.xcassets */; };
+		C47BD56A23A71342001888B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C47BD56823A71342001888B1 /* LaunchScreen.storyboard */; };
+		C47BD56D23A71342001888B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C47BD56C23A71342001888B1 /* main.m */; };
+		C47BD57723A71342001888B1 /* QuhwaMqttSmartHomeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C47BD57623A71342001888B1 /* QuhwaMqttSmartHomeTests.m */; };
+		C47BD58223A71342001888B1 /* QuhwaMqttSmartHomeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C47BD58123A71342001888B1 /* QuhwaMqttSmartHomeUITests.m */; };
+		C47BD5C823A71BB8001888B1 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = C47BD5C623A71BB8001888B1 /* MBProgressHUD.m */; };
+		C47BD5EE23A71D73001888B1 /* MQTTSSLSecurityPolicyTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = C47BD5CA23A71D73001888B1 /* MQTTSSLSecurityPolicyTransport.m */; };
+		C47BD5EF23A71D73001888B1 /* MQTTTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = C47BD5CC23A71D73001888B1 /* MQTTTransport.m */; };
+		C47BD5F023A71D73001888B1 /* MQTTCFSocketEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = C47BD5D223A71D73001888B1 /* MQTTCFSocketEncoder.m */; };
+		C47BD5F123A71D73001888B1 /* MQTTSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C47BD5D323A71D73001888B1 /* MQTTSessionManager.m */; };
+		C47BD5F223A71D73001888B1 /* MQTTCFSocketTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = C47BD5D423A71D73001888B1 /* MQTTCFSocketTransport.m */; };
+		C47BD5F323A71D73001888B1 /* MQTTMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = C47BD5D623A71D73001888B1 /* MQTTMessage.m */; };
+		C47BD5F423A71D73001888B1 /* MQTTDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = C47BD5D723A71D73001888B1 /* MQTTDecoder.m */; };
+		C47BD5F523A71D73001888B1 /* MQTTSSLSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = C47BD5D923A71D73001888B1 /* MQTTSSLSecurityPolicy.m */; };
+		C47BD5F623A71D73001888B1 /* MQTTSSLSecurityPolicyDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = C47BD5DB23A71D73001888B1 /* MQTTSSLSecurityPolicyDecoder.m */; };
+		C47BD5F723A71D73001888B1 /* MQTTSSLSecurityPolicyEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = C47BD5DC23A71D73001888B1 /* MQTTSSLSecurityPolicyEncoder.m */; };
+		C47BD5F823A71D73001888B1 /* MQTTCoreDataPersistence.m in Sources */ = {isa = PBXBuildFile; fileRef = C47BD5E023A71D73001888B1 /* MQTTCoreDataPersistence.m */; };
+		C47BD5F923A71D73001888B1 /* MQTTInMemoryPersistence.m in Sources */ = {isa = PBXBuildFile; fileRef = C47BD5E323A71D73001888B1 /* MQTTInMemoryPersistence.m */; };
+		C47BD5FA23A71D73001888B1 /* MQTTSession.m in Sources */ = {isa = PBXBuildFile; fileRef = C47BD5E423A71D73001888B1 /* MQTTSession.m */; };
+		C47BD5FB23A71D73001888B1 /* MQTTCFSocketDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = C47BD5E623A71D73001888B1 /* MQTTCFSocketDecoder.m */; };
+		C47BD5FC23A71D73001888B1 /* MQTTSessionLegacy.m in Sources */ = {isa = PBXBuildFile; fileRef = C47BD5E923A71D73001888B1 /* MQTTSessionLegacy.m */; };
+		C47BD5FD23A71D73001888B1 /* MQTTSessionSynchron.m in Sources */ = {isa = PBXBuildFile; fileRef = C47BD5EC23A71D73001888B1 /* MQTTSessionSynchron.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C47BD57323A71342001888B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C47BD55223A71340001888B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C47BD55923A71340001888B1;
+			remoteInfo = QuhwaMqttSmartHome;
+		};
+		C47BD57E23A71342001888B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C47BD55223A71340001888B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C47BD55923A71340001888B1;
+			remoteInfo = QuhwaMqttSmartHome;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C47BD55A23A71340001888B1 /* QuhwaMqttSmartHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuhwaMqttSmartHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C47BD55D23A71340001888B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C47BD55E23A71340001888B1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C47BD56023A71340001888B1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C47BD56123A71340001888B1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C47BD56423A71340001888B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C47BD56623A71342001888B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C47BD56923A71342001888B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C47BD56B23A71342001888B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C47BD56C23A71342001888B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C47BD57223A71342001888B1 /* QuhwaMqttSmartHomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuhwaMqttSmartHomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C47BD57623A71342001888B1 /* QuhwaMqttSmartHomeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuhwaMqttSmartHomeTests.m; sourceTree = "<group>"; };
+		C47BD57823A71342001888B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C47BD57D23A71342001888B1 /* QuhwaMqttSmartHomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuhwaMqttSmartHomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C47BD58123A71342001888B1 /* QuhwaMqttSmartHomeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuhwaMqttSmartHomeUITests.m; sourceTree = "<group>"; };
+		C47BD58323A71342001888B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C47BD5C623A71BB8001888B1 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		C47BD5C723A71BB8001888B1 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		C47BD5CA23A71D73001888B1 /* MQTTSSLSecurityPolicyTransport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQTTSSLSecurityPolicyTransport.m; sourceTree = "<group>"; };
+		C47BD5CB23A71D73001888B1 /* MQTTCoreDataPersistence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQTTCoreDataPersistence.h; sourceTree = "<group>"; };
+		C47BD5CC23A71D73001888B1 /* MQTTTransport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQTTTransport.m; sourceTree = "<group>"; };
+		C47BD5CD23A71D73001888B1 /* MQTTSSLSecurityPolicyEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQTTSSLSecurityPolicyEncoder.h; sourceTree = "<group>"; };
+		C47BD5CE23A71D73001888B1 /* MQTTSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQTTSession.h; sourceTree = "<group>"; };
+		C47BD5CF23A71D73001888B1 /* MQTTInMemoryPersistence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQTTInMemoryPersistence.h; sourceTree = "<group>"; };
+		C47BD5D023A71D73001888B1 /* MQTTClient-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MQTTClient-Prefix.pch"; sourceTree = "<group>"; };
+		C47BD5D123A71D73001888B1 /* MQTTPersistence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQTTPersistence.h; sourceTree = "<group>"; };
+		C47BD5D223A71D73001888B1 /* MQTTCFSocketEncoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQTTCFSocketEncoder.m; sourceTree = "<group>"; };
+		C47BD5D323A71D73001888B1 /* MQTTSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQTTSessionManager.m; sourceTree = "<group>"; };
+		C47BD5D423A71D73001888B1 /* MQTTCFSocketTransport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQTTCFSocketTransport.m; sourceTree = "<group>"; };
+		C47BD5D523A71D73001888B1 /* MQTTCFSocketDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQTTCFSocketDecoder.h; sourceTree = "<group>"; };
+		C47BD5D623A71D73001888B1 /* MQTTMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQTTMessage.m; sourceTree = "<group>"; };
+		C47BD5D723A71D73001888B1 /* MQTTDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQTTDecoder.m; sourceTree = "<group>"; };
+		C47BD5D823A71D73001888B1 /* MQTTSessionSynchron.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQTTSessionSynchron.h; sourceTree = "<group>"; };
+		C47BD5D923A71D73001888B1 /* MQTTSSLSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQTTSSLSecurityPolicy.m; sourceTree = "<group>"; };
+		C47BD5DA23A71D73001888B1 /* MQTTSessionLegacy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQTTSessionLegacy.h; sourceTree = "<group>"; };
+		C47BD5DB23A71D73001888B1 /* MQTTSSLSecurityPolicyDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQTTSSLSecurityPolicyDecoder.m; sourceTree = "<group>"; };
+		C47BD5DC23A71D73001888B1 /* MQTTSSLSecurityPolicyEncoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQTTSSLSecurityPolicyEncoder.m; sourceTree = "<group>"; };
+		C47BD5DD23A71D73001888B1 /* MQTTTransport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQTTTransport.h; sourceTree = "<group>"; };
+		C47BD5DE23A71D73001888B1 /* MQTTClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQTTClient.h; sourceTree = "<group>"; };
+		C47BD5DF23A71D73001888B1 /* MQTTLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQTTLog.h; sourceTree = "<group>"; };
+		C47BD5E023A71D73001888B1 /* MQTTCoreDataPersistence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQTTCoreDataPersistence.m; sourceTree = "<group>"; };
+		C47BD5E123A71D73001888B1 /* MQTTSSLSecurityPolicyTransport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQTTSSLSecurityPolicyTransport.h; sourceTree = "<group>"; };
+		C47BD5E223A71D73001888B1 /* MQTTCFSocketEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQTTCFSocketEncoder.h; sourceTree = "<group>"; };
+		C47BD5E323A71D73001888B1 /* MQTTInMemoryPersistence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQTTInMemoryPersistence.m; sourceTree = "<group>"; };
+		C47BD5E423A71D73001888B1 /* MQTTSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQTTSession.m; sourceTree = "<group>"; };
+		C47BD5E523A71D73001888B1 /* MQTTMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQTTMessage.h; sourceTree = "<group>"; };
+		C47BD5E623A71D73001888B1 /* MQTTCFSocketDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQTTCFSocketDecoder.m; sourceTree = "<group>"; };
+		C47BD5E723A71D73001888B1 /* MQTTCFSocketTransport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQTTCFSocketTransport.h; sourceTree = "<group>"; };
+		C47BD5E823A71D73001888B1 /* MQTTSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQTTSessionManager.h; sourceTree = "<group>"; };
+		C47BD5E923A71D73001888B1 /* MQTTSessionLegacy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQTTSessionLegacy.m; sourceTree = "<group>"; };
+		C47BD5EA23A71D73001888B1 /* MQTTSSLSecurityPolicyDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQTTSSLSecurityPolicyDecoder.h; sourceTree = "<group>"; };
+		C47BD5EB23A71D73001888B1 /* MQTTSSLSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQTTSSLSecurityPolicy.h; sourceTree = "<group>"; };
+		C47BD5EC23A71D73001888B1 /* MQTTSessionSynchron.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQTTSessionSynchron.m; sourceTree = "<group>"; };
+		C47BD5ED23A71D73001888B1 /* MQTTDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQTTDecoder.h; sourceTree = "<group>"; };
+		C47BD5FF23A71DE5001888B1 /* MqttSmartHome.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MqttSmartHome.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C47BD55723A71340001888B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C47BD56F23A71342001888B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C47BD57A23A71342001888B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C47BD55123A71340001888B1 = {
+			isa = PBXGroup;
+			children = (
+				C47BD55C23A71340001888B1 /* QuhwaMqttSmartHome */,
+				C47BD57523A71342001888B1 /* QuhwaMqttSmartHomeTests */,
+				C47BD58023A71342001888B1 /* QuhwaMqttSmartHomeUITests */,
+				C47BD55B23A71340001888B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C47BD55B23A71340001888B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C47BD55A23A71340001888B1 /* QuhwaMqttSmartHome.app */,
+				C47BD57223A71342001888B1 /* QuhwaMqttSmartHomeTests.xctest */,
+				C47BD57D23A71342001888B1 /* QuhwaMqttSmartHomeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C47BD55C23A71340001888B1 /* QuhwaMqttSmartHome */ = {
+			isa = PBXGroup;
+			children = (
+				C47BD55D23A71340001888B1 /* AppDelegate.h */,
+				C47BD55E23A71340001888B1 /* AppDelegate.m */,
+				C47BD56023A71340001888B1 /* ViewController.h */,
+				C47BD56123A71340001888B1 /* ViewController.m */,
+				C47BD56323A71340001888B1 /* Main.storyboard */,
+				C47BD56623A71342001888B1 /* Assets.xcassets */,
+				C47BD56823A71342001888B1 /* LaunchScreen.storyboard */,
+				C47BD56B23A71342001888B1 /* Info.plist */,
+				C47BD56C23A71342001888B1 /* main.m */,
+				C47BD5FE23A71DC5001888B1 /* SupportFile */,
+				C47BD58F23A71380001888B1 /* Framework */,
+			);
+			path = QuhwaMqttSmartHome;
+			sourceTree = "<group>";
+		};
+		C47BD57523A71342001888B1 /* QuhwaMqttSmartHomeTests */ = {
+			isa = PBXGroup;
+			children = (
+				C47BD57623A71342001888B1 /* QuhwaMqttSmartHomeTests.m */,
+				C47BD57823A71342001888B1 /* Info.plist */,
+			);
+			path = QuhwaMqttSmartHomeTests;
+			sourceTree = "<group>";
+		};
+		C47BD58023A71342001888B1 /* QuhwaMqttSmartHomeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C47BD58123A71342001888B1 /* QuhwaMqttSmartHomeUITests.m */,
+				C47BD58323A71342001888B1 /* Info.plist */,
+			);
+			path = QuhwaMqttSmartHomeUITests;
+			sourceTree = "<group>";
+		};
+		C47BD58F23A71380001888B1 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				C47BD5C923A71D73001888B1 /* MQTTClient */,
+				C47BD5C523A71BB8001888B1 /* MBProgressHUD */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		C47BD5C523A71BB8001888B1 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				C47BD5C623A71BB8001888B1 /* MBProgressHUD.m */,
+				C47BD5C723A71BB8001888B1 /* MBProgressHUD.h */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		C47BD5C923A71D73001888B1 /* MQTTClient */ = {
+			isa = PBXGroup;
+			children = (
+				C47BD5D023A71D73001888B1 /* MQTTClient-Prefix.pch */,
+				C47BD5E823A71D73001888B1 /* MQTTSessionManager.h */,
+				C47BD5D323A71D73001888B1 /* MQTTSessionManager.m */,
+				C47BD5E523A71D73001888B1 /* MQTTMessage.h */,
+				C47BD5D623A71D73001888B1 /* MQTTMessage.m */,
+				C47BD5CE23A71D73001888B1 /* MQTTSession.h */,
+				C47BD5E423A71D73001888B1 /* MQTTSession.m */,
+				C47BD5E123A71D73001888B1 /* MQTTSSLSecurityPolicyTransport.h */,
+				C47BD5CA23A71D73001888B1 /* MQTTSSLSecurityPolicyTransport.m */,
+				C47BD5CB23A71D73001888B1 /* MQTTCoreDataPersistence.h */,
+				C47BD5E023A71D73001888B1 /* MQTTCoreDataPersistence.m */,
+				C47BD5CD23A71D73001888B1 /* MQTTSSLSecurityPolicyEncoder.h */,
+				C47BD5DC23A71D73001888B1 /* MQTTSSLSecurityPolicyEncoder.m */,
+				C47BD5DD23A71D73001888B1 /* MQTTTransport.h */,
+				C47BD5CC23A71D73001888B1 /* MQTTTransport.m */,
+				C47BD5E723A71D73001888B1 /* MQTTCFSocketTransport.h */,
+				C47BD5D423A71D73001888B1 /* MQTTCFSocketTransport.m */,
+				C47BD5D523A71D73001888B1 /* MQTTCFSocketDecoder.h */,
+				C47BD5E623A71D73001888B1 /* MQTTCFSocketDecoder.m */,
+				C47BD5ED23A71D73001888B1 /* MQTTDecoder.h */,
+				C47BD5D723A71D73001888B1 /* MQTTDecoder.m */,
+				C47BD5D823A71D73001888B1 /* MQTTSessionSynchron.h */,
+				C47BD5EC23A71D73001888B1 /* MQTTSessionSynchron.m */,
+				C47BD5EB23A71D73001888B1 /* MQTTSSLSecurityPolicy.h */,
+				C47BD5D923A71D73001888B1 /* MQTTSSLSecurityPolicy.m */,
+				C47BD5CF23A71D73001888B1 /* MQTTInMemoryPersistence.h */,
+				C47BD5E323A71D73001888B1 /* MQTTInMemoryPersistence.m */,
+				C47BD5DA23A71D73001888B1 /* MQTTSessionLegacy.h */,
+				C47BD5E923A71D73001888B1 /* MQTTSessionLegacy.m */,
+				C47BD5EA23A71D73001888B1 /* MQTTSSLSecurityPolicyDecoder.h */,
+				C47BD5DB23A71D73001888B1 /* MQTTSSLSecurityPolicyDecoder.m */,
+				C47BD5E223A71D73001888B1 /* MQTTCFSocketEncoder.h */,
+				C47BD5D223A71D73001888B1 /* MQTTCFSocketEncoder.m */,
+				C47BD5D123A71D73001888B1 /* MQTTPersistence.h */,
+				C47BD5DE23A71D73001888B1 /* MQTTClient.h */,
+				C47BD5DF23A71D73001888B1 /* MQTTLog.h */,
+			);
+			path = MQTTClient;
+			sourceTree = "<group>";
+		};
+		C47BD5FE23A71DC5001888B1 /* SupportFile */ = {
+			isa = PBXGroup;
+			children = (
+				C47BD5FF23A71DE5001888B1 /* MqttSmartHome.pch */,
+			);
+			path = SupportFile;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C47BD55923A71340001888B1 /* QuhwaMqttSmartHome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C47BD58623A71342001888B1 /* Build configuration list for PBXNativeTarget "QuhwaMqttSmartHome" */;
+			buildPhases = (
+				C47BD55623A71340001888B1 /* Sources */,
+				C47BD55723A71340001888B1 /* Frameworks */,
+				C47BD55823A71340001888B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuhwaMqttSmartHome;
+			productName = QuhwaMqttSmartHome;
+			productReference = C47BD55A23A71340001888B1 /* QuhwaMqttSmartHome.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C47BD57123A71342001888B1 /* QuhwaMqttSmartHomeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C47BD58923A71342001888B1 /* Build configuration list for PBXNativeTarget "QuhwaMqttSmartHomeTests" */;
+			buildPhases = (
+				C47BD56E23A71342001888B1 /* Sources */,
+				C47BD56F23A71342001888B1 /* Frameworks */,
+				C47BD57023A71342001888B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C47BD57423A71342001888B1 /* PBXTargetDependency */,
+			);
+			name = QuhwaMqttSmartHomeTests;
+			productName = QuhwaMqttSmartHomeTests;
+			productReference = C47BD57223A71342001888B1 /* QuhwaMqttSmartHomeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C47BD57C23A71342001888B1 /* QuhwaMqttSmartHomeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C47BD58C23A71342001888B1 /* Build configuration list for PBXNativeTarget "QuhwaMqttSmartHomeUITests" */;
+			buildPhases = (
+				C47BD57923A71342001888B1 /* Sources */,
+				C47BD57A23A71342001888B1 /* Frameworks */,
+				C47BD57B23A71342001888B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C47BD57F23A71342001888B1 /* PBXTargetDependency */,
+			);
+			name = QuhwaMqttSmartHomeUITests;
+			productName = QuhwaMqttSmartHomeUITests;
+			productReference = C47BD57D23A71342001888B1 /* QuhwaMqttSmartHomeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C47BD55223A71340001888B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Tisoon;
+				TargetAttributes = {
+					C47BD55923A71340001888B1 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					C47BD57123A71342001888B1 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C47BD55923A71340001888B1;
+					};
+					C47BD57C23A71342001888B1 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C47BD55923A71340001888B1;
+					};
+				};
+			};
+			buildConfigurationList = C47BD55523A71340001888B1 /* Build configuration list for PBXProject "QuhwaMqttSmartHome" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C47BD55123A71340001888B1;
+			productRefGroup = C47BD55B23A71340001888B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C47BD55923A71340001888B1 /* QuhwaMqttSmartHome */,
+				C47BD57123A71342001888B1 /* QuhwaMqttSmartHomeTests */,
+				C47BD57C23A71342001888B1 /* QuhwaMqttSmartHomeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C47BD55823A71340001888B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C47BD56A23A71342001888B1 /* LaunchScreen.storyboard in Resources */,
+				C47BD56723A71342001888B1 /* Assets.xcassets in Resources */,
+				C47BD56523A71340001888B1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C47BD57023A71342001888B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C47BD57B23A71342001888B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C47BD55623A71340001888B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C47BD5FB23A71D73001888B1 /* MQTTCFSocketDecoder.m in Sources */,
+				C47BD5FA23A71D73001888B1 /* MQTTSession.m in Sources */,
+				C47BD5C823A71BB8001888B1 /* MBProgressHUD.m in Sources */,
+				C47BD5F623A71D73001888B1 /* MQTTSSLSecurityPolicyDecoder.m in Sources */,
+				C47BD56223A71340001888B1 /* ViewController.m in Sources */,
+				C47BD5F823A71D73001888B1 /* MQTTCoreDataPersistence.m in Sources */,
+				C47BD5F223A71D73001888B1 /* MQTTCFSocketTransport.m in Sources */,
+				C47BD5F423A71D73001888B1 /* MQTTDecoder.m in Sources */,
+				C47BD5F323A71D73001888B1 /* MQTTMessage.m in Sources */,
+				C47BD5EE23A71D73001888B1 /* MQTTSSLSecurityPolicyTransport.m in Sources */,
+				C47BD5FD23A71D73001888B1 /* MQTTSessionSynchron.m in Sources */,
+				C47BD5F723A71D73001888B1 /* MQTTSSLSecurityPolicyEncoder.m in Sources */,
+				C47BD5FC23A71D73001888B1 /* MQTTSessionLegacy.m in Sources */,
+				C47BD5F523A71D73001888B1 /* MQTTSSLSecurityPolicy.m in Sources */,
+				C47BD5EF23A71D73001888B1 /* MQTTTransport.m in Sources */,
+				C47BD5F123A71D73001888B1 /* MQTTSessionManager.m in Sources */,
+				C47BD56D23A71342001888B1 /* main.m in Sources */,
+				C47BD5F023A71D73001888B1 /* MQTTCFSocketEncoder.m in Sources */,
+				C47BD55F23A71340001888B1 /* AppDelegate.m in Sources */,
+				C47BD5F923A71D73001888B1 /* MQTTInMemoryPersistence.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C47BD56E23A71342001888B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C47BD57723A71342001888B1 /* QuhwaMqttSmartHomeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C47BD57923A71342001888B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C47BD58223A71342001888B1 /* QuhwaMqttSmartHomeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C47BD57423A71342001888B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C47BD55923A71340001888B1 /* QuhwaMqttSmartHome */;
+			targetProxy = C47BD57323A71342001888B1 /* PBXContainerItemProxy */;
+		};
+		C47BD57F23A71342001888B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C47BD55923A71340001888B1 /* QuhwaMqttSmartHome */;
+			targetProxy = C47BD57E23A71342001888B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C47BD56323A71340001888B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C47BD56423A71340001888B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C47BD56823A71342001888B1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C47BD56923A71342001888B1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C47BD58423A71342001888B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C47BD58523A71342001888B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C47BD58723A71342001888B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 69VWMLK863;
+				GCC_PREFIX_HEADER = /Users/Tisoon/Desktop/QuhwaMqttSmartHome/QuhwaMqttSmartHome/SupportFile/MqttSmartHome.pch;
+				INFOPLIST_FILE = QuhwaMqttSmartHome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.QuhwaMqttSmartHome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C47BD58823A71342001888B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 69VWMLK863;
+				GCC_PREFIX_HEADER = /Users/Tisoon/Desktop/QuhwaMqttSmartHome/QuhwaMqttSmartHome/SupportFile/MqttSmartHome.pch;
+				INFOPLIST_FILE = QuhwaMqttSmartHome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.QuhwaMqttSmartHome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C47BD58A23A71342001888B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 69VWMLK863;
+				INFOPLIST_FILE = QuhwaMqttSmartHomeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.QuhwaMqttSmartHomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuhwaMqttSmartHome.app/QuhwaMqttSmartHome";
+			};
+			name = Debug;
+		};
+		C47BD58B23A71342001888B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 69VWMLK863;
+				INFOPLIST_FILE = QuhwaMqttSmartHomeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.QuhwaMqttSmartHomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuhwaMqttSmartHome.app/QuhwaMqttSmartHome";
+			};
+			name = Release;
+		};
+		C47BD58D23A71342001888B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 69VWMLK863;
+				INFOPLIST_FILE = QuhwaMqttSmartHomeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.QuhwaMqttSmartHomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QuhwaMqttSmartHome;
+			};
+			name = Debug;
+		};
+		C47BD58E23A71342001888B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 69VWMLK863;
+				INFOPLIST_FILE = QuhwaMqttSmartHomeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.QuhwaMqttSmartHomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QuhwaMqttSmartHome;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C47BD55523A71340001888B1 /* Build configuration list for PBXProject "QuhwaMqttSmartHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C47BD58423A71342001888B1 /* Debug */,
+				C47BD58523A71342001888B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C47BD58623A71342001888B1 /* Build configuration list for PBXNativeTarget "QuhwaMqttSmartHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C47BD58723A71342001888B1 /* Debug */,
+				C47BD58823A71342001888B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C47BD58923A71342001888B1 /* Build configuration list for PBXNativeTarget "QuhwaMqttSmartHomeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C47BD58A23A71342001888B1 /* Debug */,
+				C47BD58B23A71342001888B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C47BD58C23A71342001888B1 /* Build configuration list for PBXNativeTarget "QuhwaMqttSmartHomeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C47BD58D23A71342001888B1 /* Debug */,
+				C47BD58E23A71342001888B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C47BD55223A71340001888B1 /* Project object */;
+}
